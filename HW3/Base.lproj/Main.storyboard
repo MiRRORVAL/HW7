@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="width" secondItem="lMx-VM-rQC" secondAttribute="height" multiplier="398:103" id="BAR-Q1-Z6k"/>
                                 </constraints>
                             </view>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.00" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5xJ-nL-mtY">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="0.00" borderStyle="roundedRect" textAlignment="right" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5xJ-nL-mtY">
                                 <rect key="frame" x="359" y="251" width="55" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="55" id="pk6-uj-ACX"/>
@@ -35,7 +35,7 @@
                                     <action selector="textFieldRedWrited" destination="BYZ-38-t0r" eventType="editingDidEnd" id="R6W-N3-8EA"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.00" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BKD-26-Kj0">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="0.00" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BKD-26-Kj0">
                                 <rect key="frame" x="359" y="308" width="55" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="55" id="okd-CB-BbC"/>
@@ -46,7 +46,7 @@
                                     <action selector="textFieldGreenWrited" destination="BYZ-38-t0r" eventType="editingDidEnd" id="4qA-ul-n8z"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.00" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hqr-OL-QLo">
+                            <textField autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="0.00" borderStyle="roundedRect" textAlignment="right" adjustsFontSizeToFit="NO" minimumFontSize="17" sizingRule="oversize" translatesAutoresizingMaskIntoConstraints="NO" id="hqr-OL-QLo">
                                 <rect key="frame" x="359" y="367" width="55" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="55" id="Ycl-Ah-Oi1"/>
@@ -75,20 +75,29 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lw2-9z-oHx">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lw2-9z-oHx">
                                 <rect key="frame" x="59.999999999999993" y="314.66666666666669" width="25.666666666666664" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25.666666666666664" id="b7n-hp-oeS"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GlV-wV-fCd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GlV-wV-fCd">
                                 <rect key="frame" x="58.999999999999993" y="258" width="25.666666666666664" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25.666666666666664" id="MQE-9d-2ne"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uB3-xk-Vip">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uB3-xk-Vip">
                                 <rect key="frame" x="59.999999999999993" y="373.33333333333331" width="25.666666666666664" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25.666666666666664" id="n0k-S9-iUR"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -179,7 +188,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
