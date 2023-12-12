@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		49F98A8F2B18E4EB00FE7E0B /* HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F98A8F2B18E4EB00FE7E0B /* HW7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F98A922B18E4EB00FE7E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49F98A942B18E4EB00FE7E0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		49F98A962B18E4EB00FE7E0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		49F98A902B18E4EB00FE7E0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49F98A8F2B18E4EB00FE7E0B /* HW3.app */,
+				49F98A8F2B18E4EB00FE7E0B /* HW7.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49F98A8E2B18E4EB00FE7E0B /* HW3 */ = {
+		49F98A8E2B18E4EB00FE7E0B /* HW7 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49F98AA32B18E4EC00FE7E0B /* Build configuration list for PBXNativeTarget "HW3" */;
+			buildConfigurationList = 49F98AA32B18E4EC00FE7E0B /* Build configuration list for PBXNativeTarget "HW7" */;
 			buildPhases = (
 				49F98A8B2B18E4EB00FE7E0B /* Sources */,
 				49F98A8C2B18E4EB00FE7E0B /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = HW3;
+			name = HW7;
 			productName = HW3;
-			productReference = 49F98A8F2B18E4EB00FE7E0B /* HW3.app */;
+			productReference = 49F98A8F2B18E4EB00FE7E0B /* HW7.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 49F98A8A2B18E4EB00FE7E0B /* Build configuration list for PBXProject "HW3" */;
+			buildConfigurationList = 49F98A8A2B18E4EB00FE7E0B /* Build configuration list for PBXProject "HW7" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49F98A8E2B18E4EB00FE7E0B /* HW3 */,
+				49F98A8E2B18E4EB00FE7E0B /* HW7 */,
 			);
 		};
 /* End PBXProject section */
@@ -340,7 +340,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49F98A8A2B18E4EB00FE7E0B /* Build configuration list for PBXProject "HW3" */ = {
+		49F98A8A2B18E4EB00FE7E0B /* Build configuration list for PBXProject "HW7" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49F98AA12B18E4EC00FE7E0B /* Debug */,
@@ -349,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49F98AA32B18E4EC00FE7E0B /* Build configuration list for PBXNativeTarget "HW3" */ = {
+		49F98AA32B18E4EC00FE7E0B /* Build configuration list for PBXNativeTarget "HW7" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49F98AA42B18E4EC00FE7E0B /* Debug */,
